@@ -10,7 +10,6 @@ import android.media.AudioManager
  */
 class VolumeReceiver : BroadcastReceiver() {
 
-
     override fun onReceive(context: Context?, intent: Intent?) {
         if (context == null ) return
         if (intent == null) return
